@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Proceed {
-	private static Integer TheFirstNumber = null;
 
 	    private final List<String> listExpression;
 
@@ -70,7 +69,6 @@ public class Proceed {
 	
 	public static int storeNumber(String input) {
 		try {
-			int number = Integer.parseInt(input);
 			return 1;
 		} catch (NumberFormatException e) {
 			return 0;

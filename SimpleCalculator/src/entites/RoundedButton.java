@@ -7,7 +7,11 @@ import java.awt.Insets;
 
 public class RoundedButton extends JButton {
 
-    private static final int ARC_WIDTH = 20;  
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private static final int ARC_WIDTH = 20;  
     private static final int ARC_HEIGHT = 20; 
 
     public RoundedButton(String label) {
